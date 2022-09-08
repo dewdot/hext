@@ -1,7 +1,14 @@
-.header {
+.header,
+.header-top,
+.page-header {
   width: 100%;
   margin: 0;
+}
+.header-top {
   padding: 1rem 0;
+}
+.page-header {
+  padding: 3rem 0 4rem 0;
 }
 .header-container {
   display: flex;
@@ -21,6 +28,10 @@
   margin: 0;
   padding: 0;
 
+}
+/* Header -> Inner page header */
+.header-page {
+  background-color: #DAE4EF;
 }
 /* Frontpage hero */
 .front-hero {

@@ -1,4 +1,4 @@
-const PageHeader = ({ title }) => {
+const PageHeader = ({title}) => {
   return (
     <div className="page-header">
       <div className="container">
