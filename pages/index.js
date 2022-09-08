@@ -1,6 +1,8 @@
 import Head from 'next/head'
-import Header from '../components/sections/Header'
-import FrontHero from '../components/elements/header/front-hero'
+import Header from '../components/header/Header'
+import FrontHero from '../components/header/front-hero'
+import CardServices from '../components/elements/card-services'
+import CardFeatures from '../components/elements/card-features'
 
 export default function Home() {
   return (
@@ -12,7 +14,8 @@ export default function Home() {
       <FrontHero />
       <main className='main'>
         <div className='container'>
-          This is main content
+          <CardServices />
+          <CardFeatures />
         </div>
       </main>
 

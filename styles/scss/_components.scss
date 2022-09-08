@@ -1,3 +1,4 @@
+/* cards */
 .cards {
   display: flex;
   gap: 1rem;
@@ -6,4 +7,12 @@
 .card {
   flex: 1 0 300px;
   background-color: #ffffff;
+  min-height: 300px;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: var(--shadow-card);
+  transition: all 0.3s ease;
+}
+.card:hover {
+  box-shadow: var(--shadow-card-hover);
 }

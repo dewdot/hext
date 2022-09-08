@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import NavMain from '../elements/navigation/nav-main';
+import NavMain from '../navigation/nav-main';
 const Header = () => {
   return (
     <div className='header-top'>

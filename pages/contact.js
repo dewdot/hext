@@ -1,6 +1,6 @@
 import Head from 'next/head'
-import Header from '../components/sections/Header'
-import PageHeader from '../components/elements/header/page-header'
+import Header from '../components/header/Header'
+import PageHeader from '../components/header/page-header'
 export default function Contact() {
   return (
     <>

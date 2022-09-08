@@ -2,6 +2,9 @@
 :root {
   --color-text: #49494D;
   --color-heading: #1E1F24;
+
+  --shadow-card: 0 0 1rem #D1D1D1;
+  --shadow-card-hover: 0 -0.4rem 1rem #D1D1D1;
 }
 /* Default Box sizing */
 *,

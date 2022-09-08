@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import '../styles/style.css'
-import Header from '../components/sections/Header'
-import Footer from '../components/sections/Footer'
+import Footer from '../components/footer/Footer'
 function MyApp({ Component, pageProps }) {
   return (
     <>

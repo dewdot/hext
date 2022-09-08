@@ -1,6 +1,6 @@
-import FooterBlock1 from "../elements/footer/Footer-block-1";
-import FooterBlock2 from "../elements/footer/Footer-block-2";
-import FooterBlock3 from "../elements/footer/Footer-block-3";
+import FooterBlock1 from "./Footer-block-1";
+import FooterBlock2 from "./Footer-block-2";
+import FooterBlock3 from "./Footer-block-3";
 const yr = new Date().getFullYear();
 const Footer = () => {
   return (

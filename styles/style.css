@@ -2,6 +2,8 @@
 :root {
   --color-text: #49494D;
   --color-heading: #1E1F24;
+  --shadow-card: 0 0 1rem #D1D1D1;
+  --shadow-card-hover: 0 -0.4rem 1rem #D1D1D1;
 }
 
 /* Default Box sizing */
@@ -119,7 +121,12 @@ ul {
 .section {
   width: 100%;
   margin: 0;
-  padding: 0;
+  padding: 3rem 0;
+}
+
+.section-title {
+  text-align: center;
+  padding-bottom: 1rem;
 }
 
 .header,
@@ -193,7 +200,7 @@ ul {
 }
 
 .main {
-  min-height: 100vh;
+  padding: 2rem 0;
 }
 
 .footer {
@@ -230,6 +237,7 @@ ul {
   list-style: none;
 }
 
+/* cards */
 .cards {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -244,6 +252,18 @@ ul {
       -ms-flex: 1 0 300px;
           flex: 1 0 300px;
   background-color: #ffffff;
+  min-height: 300px;
+  padding: 1rem;
+  border-radius: 8px;
+  -webkit-box-shadow: var(--shadow-card);
+          box-shadow: var(--shadow-card);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  -webkit-box-shadow: var(--shadow-card-hover);
+          box-shadow: var(--shadow-card-hover);
 }
 
 @media (min-width: 768px) {
