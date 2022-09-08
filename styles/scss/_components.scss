@@ -1,0 +1,9 @@
+.cards {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.card {
+  flex: 1 0 300px;
+  background-color: #ffffff;
+}
