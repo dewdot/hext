@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Nextjs Free Web Hosting Template</title>
+        <title>Hext | Free Web Hosting Template</title>
       </Head>
       <Header />
       <FrontHero />

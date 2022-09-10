@@ -1,10 +1,14 @@
 /* variables */
 :root {
+  --color-primary: #F4A019;
   --color-text: #49494D;
   --color-heading: #1E1F24;
-
+  --color-border: #CBD2BE;
   --shadow-card: 0 0 1rem #D1D1D1;
   --shadow-card-hover: 0 -0.4rem 1rem #D1D1D1;
+
+  --font-body: 'Roboto', sans-serif;
+  --font-heading: 'Outfit', sans-serif;
 }
 /* Default Box sizing */
 *,
@@ -91,10 +95,22 @@ select {
 body {
   background: linear-gradient(to right bottom, #ECF2E3, #E2EBF6);
   color: var(--color-text);
+  font-family: var(--font-body);
+  font-weight: 400;
 }
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
   color: var(--color-heading);
+  font-family: var(--font-heading);
+  font-weight: 500;
+}
+h1 {
+  font-size: 2.6rem;
+}
+/* Links */
+a {
+  color: var(--color-primary);
+  text-decoration: none;
 }
 /* List */
 ul {
