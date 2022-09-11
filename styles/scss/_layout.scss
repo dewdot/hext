@@ -5,13 +5,27 @@
   width: 100%;
   max-width: 1220px;
 }
+/* Section */
 .section {
   width: 100%;
   margin: 0;
-  padding: 3rem 0;
+  padding: 5rem 0;
 }
-
 .section-title {
   text-align: center;
   padding-bottom: 1rem;
+}
+/* Flex column */
+.flex-container {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.flex-column {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+.flex-item {
+  flex: 1 0 300px;
 }

@@ -1,0 +1,21 @@
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_104_39)">
+<rect x="24" y="20" width="52" height="60" rx="8" stroke="#0D599F" stroke-width="4"/>
+<line x1="31" y1="38" x2="69" y2="38" stroke="#98BF79" stroke-width="4"/>
+<line x1="31" y1="49" x2="69" y2="49" stroke="#98BF79" stroke-width="4"/>
+<line x1="31" y1="60" x2="69" y2="60" stroke="#98BF79" stroke-width="4"/>
+<line x1="52" y1="78" x2="52" y2="98" stroke="#0D599F" stroke-width="4"/>
+<line y1="-2" x2="20" y2="-2" transform="matrix(0 -1 -1 0 50 21)" stroke="#0D599F" stroke-width="4"/>
+<line x1="76" y1="49" x2="96" y2="49" stroke="#0D599F" stroke-width="4"/>
+<line x1="2" y1="49" x2="22" y2="49" stroke="#0D599F" stroke-width="4"/>
+<circle cx="52" cy="94" r="6" fill="#98BF79"/>
+<circle r="6" transform="matrix(1 0 0 -1 52 6)" fill="#98BF79"/>
+<circle cx="94" cy="48" r="6" transform="rotate(-90 94 48)" fill="#98BF79"/>
+<circle cx="6" cy="49" r="6" fill="#98BF79"/>
+</g>
+<defs>
+<clipPath id="clip0_104_39">
+<rect width="100" height="100" fill="white"/>
+</clipPath>
+</defs>
+</svg>

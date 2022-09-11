@@ -1,28 +1,15 @@
+import { FeaturesData } from "../data/FeaturesData";
 const CardFeatures = () => {
   return (
     <section className="section">
       <div className="section-title">
-        <h3>Wny Choose Hext</h3>
+        <h2>Why Choose Hext</h2>
       </div>
       <div className="cards">
-        <div className="card">
-          <h4>AMD Ryzen</h4>
-        </div>
-        <div className="card">
-          <h4>10G Port</h4>
-        </div>
-        <div className="card">
-          <h4>NVMe SSD</h4>
-        </div>
-        <div className="card">
-          <h4></h4>
-        </div>
-        <div className="card">
-          <h4></h4>
-        </div>
-        <div className="card">
-          <h4></h4>
-        </div>
+        {FeaturesData.map((item) => <div key={item.id} className="card">
+          <h4 className="card-title">{item.title}</h4>
+          <p className="card-text">{item.text}</p>
+        </div>)}
       </div>
     </section>
   )

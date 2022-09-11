@@ -1,18 +1,46 @@
 /* cards */
 .cards {
   display: flex;
-  gap: 1rem;
+  gap: 1.4rem;
   flex-wrap: wrap;
 }
 .card {
   flex: 1 0 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
   background-color: #ffffff;
-  min-height: 300px;
+  min-height: 200px;
   padding: 1rem;
   border-radius: 8px;
   box-shadow: var(--shadow-card);
   transition: all 0.3s ease;
 }
 .card:hover {
+  transform: scale(1.1);
   box-shadow: var(--shadow-card-hover);
+}
+.card-image img {
+  max-height: 4rem;
+  width: auto;
+}
+/* Buton */
+.button {
+  display: inline-block;
+  background-color: var(--color-dark);
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 8px 1rem;
+  white-space: nowrap;
+  vertical-align: middle;
+  user-select: none;
+  border-radius: 6px;
+  transition: all 0.3s ease-in-out;
+}
+.button-primary {
+  background-color: var(--color-primary);
+}
+.button-secondary {
+  background-color: var(--color-secondary);
 }
