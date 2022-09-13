@@ -12,3 +12,45 @@
 .color-secondary {
   color: var(--color-secondary);
 }
+/* Spacing */
+.spacer,
+.spacer1,
+.spacer2,
+.spacer3,
+.spacer4 {
+  display: block;
+  width: 100%;
+}
+.spacer,
+.spacer1 {
+  height: 1rem;
+}
+.spacer2 {
+  height: 2rem;
+}
+.spacer3 {
+  height: 3rem;
+}
+.spacer4 {
+  height: 4rem;
+}
+/* Image icon size */
+.img-size1 {
+  height: 1rem;
+  width: auto;
+}
+.img-size2 {
+  height: 2rem;
+  width: auto;
+}
+.img-size3 {
+  height: 3rem;
+  width: auto;
+}
+/* Margin padding */
+.m0 {
+  margin: 0;
+}
+.p0 {
+  padding: 0;
+}

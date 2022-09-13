@@ -3,7 +3,7 @@ export const FeaturesData = [
     id: 1,
     title: 'NVME SSD Disk',
     image: '',
-    text: 'Super fast latest NEMe ssd disk to boost your website performance,'
+    text: 'Super fast latest NEMe ssd disk to boost your website performance.'
   },
   {
     id: 2,

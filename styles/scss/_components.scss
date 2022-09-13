@@ -8,17 +8,18 @@
   flex: 1 0 300px;
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 0.8rem;
   background-color: #ffffff;
-  min-height: 200px;
   padding: 1rem;
   border-radius: 8px;
   box-shadow: var(--shadow-card);
   transition: all 0.3s ease;
 }
 .card:hover {
-  transform: scale(1.1);
   box-shadow: var(--shadow-card-hover);
+}
+.card p:last-child {
+  margin: 0;
 }
 .card-image img {
   max-height: 4rem;
@@ -37,6 +38,9 @@
   user-select: none;
   border-radius: 6px;
   transition: all 0.3s ease-in-out;
+}
+.button:hover {
+  background-color: var(--color-primary);
 }
 .button-primary {
   background-color: var(--color-primary);

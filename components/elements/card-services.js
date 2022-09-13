@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { ServicesData } from "../data/ServicesData";
 const CardServices = () => {
   return (
@@ -8,9 +9,11 @@ const CardServices = () => {
       </div>
       <div className="cards">
         {ServicesData.map((item) => <div key={item.id} className="card">
-          <div className="card-image"><img src={`/images/webhosting/${item.image}`} alt={item.title} /></div>
+          <div className="card-image"><img src={item.image} alt={item.title} /></div>
           <h4 className="card-ttile">{item.title}</h4>
           <div className="card-text">{item.text}</div>
+          <div>From {item.price}</div>
+          <div><Link href={item.link}>View plans</Link></div>
         </div>)}
       </div>
     </div>

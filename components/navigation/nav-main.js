@@ -7,6 +7,7 @@ const NavMain = () => {
         <li><Link href="/vps">VPS</Link></li>
         <li><Link href="/dedicated">Dedicated</Link></li>
         <li><Link href="/email">Email</Link></li>
+        <li><Link href="/support">Support</Link></li>
         <li><Link href="/contact">Contact</Link></li>
       </ul>
       <Link href="#"><a className='button button'>Login</a></Link>
