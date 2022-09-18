@@ -208,7 +208,7 @@ textarea {
   padding-bottom: 1rem;
 }
 
-/* Flex column */
+/* Flex layout */
 .flex-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -233,6 +233,48 @@ textarea {
   -webkit-box-flex: 1;
       -ms-flex: 1 0 300px;
           flex: 1 0 300px;
+}
+
+.flex-justify-center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.flex-align-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.flex-20 {
+  -webkit-box-flex: 20%;
+      -ms-flex: 20%;
+          flex: 20%;
+}
+
+.flex-30 {
+  -webkit-box-flex: 30%;
+      -ms-flex: 30%;
+          flex: 30%;
+}
+
+.flex-40 {
+  -webkit-box-flex: 40%;
+      -ms-flex: 40%;
+          flex: 40%;
+}
+
+.flex-50 {
+  -webkit-box-flex: 50%;
+      -ms-flex: 50%;
+          flex: 50%;
+}
+
+.flex-60 {
+  -webkit-box-flex: 60%;
+      -ms-flex: 60%;
+          flex: 60%;
 }
 
 .header,
@@ -520,6 +562,22 @@ textarea {
   color: var(--color-secondary);
 }
 
+.bg-primary {
+  background-color: var(--color-primary);
+}
+
+.bg-secondary {
+  background-color: var(--color-secondary);
+}
+
+.bg-light-primary {
+  background-color: var(--color-light-primary);
+}
+
+.bg-light-secondary {
+  background-color: var(--color-light-secondary);
+}
+
 /* Spacing */
 .spacer,
 .spacer1,
@@ -570,6 +628,23 @@ textarea {
 
 .p0 {
   padding: 0;
+}
+
+/* Content width */
+.width-50 {
+  width: 50%;
+}
+
+.width-60 {
+  width: 60%;
+}
+
+.width-70 {
+  width: 70%;
+}
+
+.width-80 {
+  width: 80%;
 }
 
 /* cards */
@@ -646,6 +721,61 @@ textarea {
 
 .button-secondary {
   background-color: var(--color-secondary);
+}
+
+/* Box */
+.box {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 12px;
+}
+
+/* Pricing table*/
+.price-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.price-card {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 300px;
+          flex: 1 0 300px;
+  padding: 1rem;
+  text-align: center;
+  -webkit-box-shadow: var(--shadow-card);
+          box-shadow: var(--shadow-card);
+}
+
+.price-card:nth-child(odd) {
+  background-color: var(--color-light-secondary);
+}
+
+.price-card:nth-child(even) {
+  background-color: var(--color-light-primary);
+}
+
+.plan-price {
+  font-size: 1.6rem;
+}
+
+.plan-details {
+  list-style: none;
+  margin: 2rem 0 1rem 0;
+}
+
+.plan-details li {
+  padding: 10px 0;
+  border-bottom: 1px solid var(--color-secondary);
+}
+
+.plan-details li:last-child {
+  border-bottom: 0;
 }
 
 @media (min-width: 768px) {

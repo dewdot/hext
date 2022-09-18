@@ -12,6 +12,18 @@
 .color-secondary {
   color: var(--color-secondary);
 }
+.bg-primary {
+  background-color: var(--color-primary);
+}
+.bg-secondary {
+  background-color: var(--color-secondary);
+}
+.bg-light-primary {
+  background-color: var(--color-light-primary);
+}
+.bg-light-secondary {
+  background-color: var(--color-light-secondary);
+}
 /* Spacing */
 .spacer,
 .spacer1,
@@ -53,4 +65,17 @@
 }
 .p0 {
   padding: 0;
+}
+/* Content width */
+.width-50 {
+  width: 50%;
+}
+.width-60 {
+  width: 60%;
+}
+.width-70 {
+  width: 70%;
+}
+.width-80 {
+  width: 80%;
 }

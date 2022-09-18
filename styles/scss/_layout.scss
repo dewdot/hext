@@ -15,7 +15,7 @@
   text-align: center;
   padding-bottom: 1rem;
 }
-/* Flex column */
+/* Flex layout */
 .flex-container {
   display: flex;
   gap: 1rem;
@@ -28,4 +28,25 @@
 }
 .flex-item {
   flex: 1 0 300px;
+}
+.flex-justify-center {
+  justify-content: center;
+}
+.flex-align-center {
+  align-items: center;
+}
+.flex-20 {
+  flex: 20%;
+}
+.flex-30 {
+  flex: 30%;
+}
+.flex-40 {
+  flex: 40%;
+}
+.flex-50 {
+  flex: 50%;
+}
+.flex-60 {
+  flex: 60%;
 }

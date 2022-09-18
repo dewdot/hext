@@ -32,25 +32,25 @@ export const FeaturesHostingData = [
   {
     id: 6,
     title: 'Free Migration',
-    image: '/images/icons/ssd.svg',
+    image: '/images/icons/migration.svg',
     text: 'We can migrate your website to our servers for free and witin few hours only.'
   },
   {
     id: 7,
     title: 'Free SSL Certificates',
-    image: '/images/icons/ssd.svg',
+    image: '/images/icons/ssl.svg',
     text: 'We can migrate your website to our servers for free and witin few hours only.'
   },
   {
     id: 8,
     title: 'cPanel Control Panel',
-    image: '/images/icons/ssd.svg',
+    image: '/images/icons/cpanel.svg',
     text: 'We can migrate your website to our servers for free and witin few hours only.'
   },
   {
     id: 9,
     title: '30-days money back guarantee',
-    image: '/images/icons/ssd.svg',
+    image: '/images/icons/money-back.svg',
     text: 'We can migrate your website to our servers for free and witin few hours only.'
   }
 ]

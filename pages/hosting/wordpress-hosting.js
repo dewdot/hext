@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Header from '../../components/header/Header'
 import PageHeader from '../../components/header/page-header'
+import CardFeaturesHosting from '../../components/elements/card-features-hosting'
 export default function WordPressHosting() {
   return (
     <>
@@ -13,7 +14,7 @@ export default function WordPressHosting() {
       </header>
       <main className='main'>
         <div className='container'>
-          WordPress hosting
+          <CardFeaturesHosting />
         </div>
       </main>
     </>
