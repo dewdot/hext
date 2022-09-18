@@ -3,7 +3,14 @@ const NavMain = () => {
   return(
     <nav className="main-nav">
       <ul className='main-menu'>        
-        <li><Link href="/hosting">Hosting</Link></li>
+        <li className='has-children'>
+          <Link href="/hosting">Hosting</Link>
+          <ul className='sub-menu'>
+            <li><Link href="/hosting/web-hosting">Web Hosting</Link></li>
+            <li><Link href="/hosting/reseller-hosting">Reseller Hosting</Link></li>
+            <li><Link href="/hosting/wordpress-hosting">WordPress Hosting</Link></li>
+          </ul>
+        </li>
         <li><Link href="/vps">VPS</Link></li>
         <li><Link href="/dedicated">Dedicated</Link></li>
         <li><Link href="/email">Email</Link></li>

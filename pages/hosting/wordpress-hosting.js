@@ -5,11 +5,11 @@ export default function WordPressHosting() {
   return (
     <>
       <Head>
-        <title>WordPress hosting | Hext</title>
+        <title>WordPress Hosting | Hext</title>
       </Head>
       <header className="header header-page">
         <Header />
-        <PageHeader title="WordPress hosting" />
+        <PageHeader title="WordPress Hosting" />
       </header>
       <main className='main'>
         <div className='container'>

@@ -3,3 +3,11 @@
     transform: translateY(-2rem);
   }
 }
+@keyframes slideUP {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

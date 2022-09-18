@@ -26,6 +26,7 @@
   display: flex;
   align-items: center;
   gap: 1rem;
+  z-index: 2;
 }
 .main-nav .button {
   padding: 6px 1rem;
@@ -39,7 +40,7 @@
   font-family: var(--font-heading);
   font-weight: 500;
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -50,7 +51,7 @@
 .main-menu li {
   position: relative;
 }
-.main-menu li::before {
+.main-menu > li::before {
   position: absolute;
   content: '';
   bottom: 0;
@@ -59,8 +60,31 @@
   height: 2px;
   transition: width 0.3s linear;
 }
-.main-menu li:hover::before {
+.main-menu > li:hover::before {
   width: 100%;
+}
+/* sub menu */
+.sub-menu {
+  position: absolute;
+  list-style: none;
+  display: none;
+  flex-direction: column;
+  background-color: #ffffff;
+  font-size: 0.9rem;
+  margin: 0;
+  padding: 0;
+  min-width: 160px;
+}
+.has-children:hover .sub-menu {
+  display: flex;
+  animation: slideUP 0.5s linear forwards;
+}
+.sub-menu a {
+  display: block;
+  padding: 6px 0 6px 12px;
+}
+.sub-menu > li {
+  border-bottom: 1px solid var(--color-primary);
 }
 /* Header -> Inner page header */
 .header-page {
