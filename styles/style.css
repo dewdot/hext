@@ -1,13 +1,13 @@
 /* variables */
 :root {
-  --color-primary: #98BF79;
+  --color-primary: #82B05D;
   --color-secondary: #0D599F;
   --color-dark: #08345C;
-  --color-light-primary: #E9EDE2;
+  --color-light-primary: #DFE8D2;
   --color-light-secondary: #DAE4EF;
   --color-text: #49494D;
   --color-heading: #1E1F24;
-  --color-border: #CBD2BE;
+  --color-border: #B7C3A0;
   --shadow-card: 0 0 4px 0 var(--color-secondary);
   --shadow-card-hover: 0 0 12px var(--color-primary);
   --font-body: 'Roboto', sans-serif;
@@ -141,6 +141,12 @@ p {
 a {
   color: var(--color-primary);
   text-decoration: none;
+  -webkit-transition: color 0.3s linear;
+  transition: color 0.3s linear;
+}
+
+a:hover {
+  color: var(--color-secondary);
 }
 
 /* List */
@@ -235,16 +241,22 @@ textarea {
           flex: 1 0 300px;
 }
 
-.flex-justify-center {
+.justify-center {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
 
-.flex-align-center {
+.align-center {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.flex-10 {
+  -webkit-box-flex: 10%;
+      -ms-flex: 10%;
+          flex: 10%;
 }
 
 .flex-20 {
@@ -339,7 +351,7 @@ textarea {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -487,8 +499,8 @@ textarea {
 
 .footer-block {
   -webkit-box-flex: 1;
-      -ms-flex: 1 0 300px;
-          flex: 1 0 300px;
+      -ms-flex: 1 0 250px;
+          flex: 1 0 250px;
 }
 
 .footer-bottom {
@@ -542,109 +554,6 @@ textarea {
   to {
     opacity: 1;
   }
-}
-
-/* Aligment */
-.center {
-  margin: 0 auto;
-}
-
-.text-center {
-  text-align: center;
-}
-
-/* color */
-.color-primary {
-  color: var(--color-primary);
-}
-
-.color-secondary {
-  color: var(--color-secondary);
-}
-
-.bg-primary {
-  background-color: var(--color-primary);
-}
-
-.bg-secondary {
-  background-color: var(--color-secondary);
-}
-
-.bg-light-primary {
-  background-color: var(--color-light-primary);
-}
-
-.bg-light-secondary {
-  background-color: var(--color-light-secondary);
-}
-
-/* Spacing */
-.spacer,
-.spacer1,
-.spacer2,
-.spacer3,
-.spacer4 {
-  display: block;
-  width: 100%;
-}
-
-.spacer,
-.spacer1 {
-  height: 1rem;
-}
-
-.spacer2 {
-  height: 2rem;
-}
-
-.spacer3 {
-  height: 3rem;
-}
-
-.spacer4 {
-  height: 4rem;
-}
-
-/* Image icon size */
-.img-size1 {
-  height: 1rem;
-  width: auto;
-}
-
-.img-size2 {
-  height: 2rem;
-  width: auto;
-}
-
-.img-size3 {
-  height: 3rem;
-  width: auto;
-}
-
-/* Margin padding */
-.m0 {
-  margin: 0;
-}
-
-.p0 {
-  padding: 0;
-}
-
-/* Content width */
-.width-50 {
-  width: 50%;
-}
-
-.width-60 {
-  width: 60%;
-}
-
-.width-70 {
-  width: 70%;
-}
-
-.width-80 {
-  width: 80%;
 }
 
 /* cards */
@@ -727,7 +636,7 @@ textarea {
 .box {
   width: 100%;
   padding: 1rem;
-  border-radius: 12px;
+  border-radius: 6px;
 }
 
 /* Pricing table*/
@@ -776,6 +685,123 @@ textarea {
 
 .plan-details li:last-child {
   border-bottom: 0;
+}
+
+/* Aligment */
+.center {
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+/* color */
+.color-primary {
+  color: var(--color-primary);
+}
+
+.color-secondary {
+  color: var(--color-secondary);
+}
+
+.color-dark {
+  color: var(--color-dark);
+}
+
+.bg-primary {
+  background-color: var(--color-primary);
+  color: #ffffff;
+}
+
+.bg-secondary {
+  background-color: var(--color-secondary);
+  color: #ffffff;
+}
+
+.bg-light-primary {
+  background-color: var(--color-light-primary);
+}
+
+.bg-light-secondary {
+  background-color: var(--color-light-secondary);
+}
+
+/* Spacing */
+.spacer,
+.spacer1,
+.spacer2,
+.spacer3,
+.spacer4 {
+  display: block;
+  width: 100%;
+}
+
+.spacer,
+.spacer1 {
+  height: 1rem;
+}
+
+.spacer2 {
+  height: 2rem;
+}
+
+.spacer3 {
+  height: 3rem;
+}
+
+.spacer4 {
+  height: 4rem;
+}
+
+/* Image icon size */
+.img-size1 {
+  height: 1rem;
+  width: auto;
+}
+
+.img-size2 {
+  height: 2rem;
+  width: auto;
+}
+
+.img-size3 {
+  height: 3rem;
+  width: auto;
+}
+
+/* Margin padding */
+.m0 {
+  margin: 0;
+}
+
+.p0 {
+  padding: 0;
+}
+
+.p1 {
+  padding: 1rem;
+}
+
+/* Content width */
+.width-50 {
+  width: 50%;
+}
+
+.width-60 {
+  width: 60%;
+}
+
+.width-70 {
+  width: 70%;
+}
+
+.width-80 {
+  width: 80%;
 }
 
 @media (min-width: 768px) {

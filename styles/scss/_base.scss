@@ -1,13 +1,13 @@
 /* variables */
 :root {
-  --color-primary: #98BF79;
+  --color-primary: #82B05D;
   --color-secondary: #0D599F;
   --color-dark: #08345C;
-  --color-light-primary: #E9EDE2;
+  --color-light-primary: #DFE8D2;
   --color-light-secondary: #DAE4EF;
   --color-text: #49494D;
   --color-heading: #1E1F24;
-  --color-border: #CBD2BE;
+  --color-border: #B7C3A0;
   --shadow-card: 0 0 4px 0 var(--color-secondary);
   --shadow-card-hover: 0 0 12px var(--color-primary);
 
@@ -128,6 +128,10 @@ p {
 a {
   color: var(--color-primary);
   text-decoration: none;
+  transition: color 0.3s linear;
+}
+a:hover {
+  color: var(--color-secondary);
 }
 /* List */
 ul {

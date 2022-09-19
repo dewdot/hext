@@ -5,6 +5,9 @@
 .text-center {
   text-align: center;
 }
+.text-right {
+  text-align: right;
+}
 /* color */
 .color-primary {
   color: var(--color-primary);
@@ -12,11 +15,16 @@
 .color-secondary {
   color: var(--color-secondary);
 }
+.color-dark {
+  color: var(--color-dark);
+}
 .bg-primary {
   background-color: var(--color-primary);
+  color: #ffffff;
 }
 .bg-secondary {
   background-color: var(--color-secondary);
+  color: #ffffff;
 }
 .bg-light-primary {
   background-color: var(--color-light-primary);
@@ -65,6 +73,9 @@
 }
 .p0 {
   padding: 0;
+}
+.p1 {
+  padding: 1rem;
 }
 /* Content width */
 .width-50 {

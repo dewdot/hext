@@ -12,8 +12,10 @@ const CardServices = () => {
           <div className="card-image"><img src={item.image} alt={item.title} /></div>
           <h4 className="card-ttile">{item.title}</h4>
           <div className="card-text">{item.text}</div>
-          <div>From {item.price}</div>
-          <div><Link href={item.link}>View plans</Link></div>
+          <div className='bg-light-secondary color-secondary box'>
+            <div>From {item.price}</div>
+            <div><Link href={item.link}>View plans</Link></div>
+          </div>
         </div>)}
       </div>
     </div>

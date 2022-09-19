@@ -1,4 +1,6 @@
 import Head from 'next/head'
+import { FeaturesEmailData } from '../components/data/FeaturesEmailData'
+import FeaturesEmail from '../components/elements/features-email'
 import Header from '../components/header/Header'
 import PageHeader from '../components/header/page-header'
 export default function Email() {
@@ -29,7 +31,7 @@ export default function Email() {
                 <img src="/images/mail/mail-security.svg" alt="secured mail" />
               </div>
             </div>
-          </div>{/* section */}          
+          </div>{/* section */}
           <div className="section">
             <div className="flex-container">
               <div className='flex-item'><img src="/images/mail/mail-delivery.svg" alt="mail-delivery" /></div>
@@ -91,12 +93,8 @@ export default function Email() {
             </div>{/* price-cards */}
           </div>{/* section */}
           <div className="section">
-            <h3 className='text-center'>Why choose us?</h3>
-            <div className='flex-container'>
-              <div className='flex-item bg-light-secondary'>1</div>
-              <div className='flex-item bg-light-secondary'>2</div>
-              <div className='flex-item bg-light-secondary'>3</div>
-            </div>
+            <h2 className='section-title'>Why choose us?</h2>
+            <FeaturesEmail />
           </div>
         </div>
       </main>

@@ -3,7 +3,7 @@ export const ServicesData = [
     id: 1,
     title: 'Web Hosting',
     image: '/images/webhosting/web-hosting.svg',
-    text: 'Build your brand by using our transactional email hosting services with your domain',
+    text: 'Faster, secured web hosting with 99% uptime and daily backups.',
     price: '$1 /month',
     link: '/hosting/web-hosting'
   },
@@ -11,7 +11,7 @@ export const ServicesData = [
     id: 2,
     title: 'Reseller Hosting',
     image: '/images/webhosting/reseller-hosting.svg',
-    text: 'Build your brand by using our transactional email hosting services with your domain.',
+    text: 'Fully white-label cPanel reseller hosting with daily backups.',
     price: '$3 /month',
     link: '/hosting/reseller-hosting'
   },
@@ -19,7 +19,7 @@ export const ServicesData = [
     id: 3,
     title: 'WordPress Hosting',
     image: '/images/webhosting/wordpress-hosting.svg',
-    text: 'Build your brand by using our transactional email hosting services with your domain.',
+    text: 'Faster, secure wordpress websites backed by fast hardware and web server.',
     price: '$5 /month',
     link: '/hosting/wordpress-hosting'
   },
@@ -27,24 +27,24 @@ export const ServicesData = [
     id: 4,
     title: 'VPS Hosting',
     image: '/images/webhosting/vps-hosting.svg',
-    text: 'Build your brand by using our transactional email hosting services with your domain.',
+    text: 'High performance Ryzen servers with NVMe ssd disk and 10Gbps port.',
     price: '$9 /month',
     link: '#'
   },
   {
     id: 5,
-    title: 'Cloud Server',
+    title: 'Email Hosting',
     image: '/images/webhosting/cloud-server.svg',
-    text: 'Build your brand by using our transactional email hosting services with your domain.',
+    text: 'Secure professional and high delivery email for your organization.',
     price: '$15 /month',
-    link: '#'
+    link: '/email'
   },
   {
     id: 6,
     title: 'Dedicated Server',
     image: '/images/webhosting/dedicaed-server.svg',
-    text: 'Build your brand by using our transactional email hosting services with your domain.',
-    price: '$49 /month',
-    link: '#'
+    text: 'Bare metal high performing servers delivered instantly.',
+    price: '$30 /month',
+    link: '/dedicated'
   },
 ]

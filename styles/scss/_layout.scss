@@ -29,11 +29,14 @@
 .flex-item {
   flex: 1 0 300px;
 }
-.flex-justify-center {
+.justify-center {
   justify-content: center;
 }
-.flex-align-center {
+.align-center {
   align-items: center;
+}
+.flex-10 {
+  flex: 10%;
 }
 .flex-20 {
   flex: 20%;
