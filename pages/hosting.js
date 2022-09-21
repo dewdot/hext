@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import CardFeaturesHosting from '../components/elements/card-features-hosting'
-import CardServicesHosting from '../components/elements/card-services-hosting'
+import ServicesHosting from '../components/elements/services-hosting'
 import Header from '../components/header/Header'
 import PageHeader from '../components/header/page-header'
 export default function Hosting() {
@@ -15,7 +15,7 @@ export default function Hosting() {
       </header>
       <main className='main'>
         <div className='container'>
-          <CardServicesHosting />
+          <ServicesHosting />
           <CardFeaturesHosting />
         </div>
       </main>

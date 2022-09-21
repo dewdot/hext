@@ -36,11 +36,12 @@
   white-space: nowrap;
   vertical-align: middle;
   user-select: none;
-  border-radius: 6px;
+  border-radius: 4px;
   transition: all 0.3s ease-in-out;
 }
 .button:hover {
   background-color: var(--color-primary);
+  color: #ffffff;
 }
 .button-primary {
   background-color: var(--color-primary);
@@ -85,4 +86,24 @@
 }
 .plan-details li:last-child {
   border-bottom: 0;
+}
+
+/* Faq */
+.faq {
+  flex: 40%;
+}
+.faq-title,
+.faq-ans {
+  width: 100%;
+  padding: 10px;
+}
+.faq-title {
+  background-color: var(--color-light-primary);
+  border-radius: 10px 10px 0 0;
+}
+.faq-title h4 {
+  font-size: 1.3rem;
+}
+.faq-ans {
+  background-color: var(--color-light-secondary);
 }

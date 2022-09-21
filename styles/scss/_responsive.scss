@@ -2,4 +2,24 @@
   html {
     font-size: 18px;
   }
+  /* Header */
+  .main-nav {
+    position: relative;
+    transform: none;
+    background-color: transparent;
+    width: 100%;
+  }
+  .main-menu {
+    flex-direction: row;
+  }
+  .page-header {
+    padding: 3rem 0 4rem 0;
+  }
+  /* Responsive view */
+  .view-mobile {
+    display: none;
+  }
+  .view-desktop {
+    display: block;
+  }
 }

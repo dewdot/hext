@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import CardFeaturesDedicated from '../components/elements/card-features-dedicated'
+import FaqDedicated from '../components/elements/faq/faq-dedicated'
 import Header from '../components/header/Header'
 import PageHeader from '../components/header/page-header'
 export default function Dedicated() {
@@ -104,8 +105,14 @@ export default function Dedicated() {
           <div className='section'>
             <div className='section-title'>
               <h3>Why Hext Server</h3>
-              <CardFeaturesDedicated />
             </div>
+            <CardFeaturesDedicated />
+          </div>{/* section */}
+          <div className='section'>
+            <div className='section-title'>
+              <h3>Frequently Asked Questions</h3>
+            </div>
+            <FaqDedicated />
           </div>{/* section */}
         </div>
       </main>

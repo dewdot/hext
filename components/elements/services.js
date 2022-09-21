@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { ServicesData } from "../data/ServicesData";
-const CardServices = () => {
+const Services = () => {
   return (
     <div className="section">
       <div className="section-title">
@@ -22,4 +22,4 @@ const CardServices = () => {
 
   )
 }
-export default CardServices;
+export default Services;

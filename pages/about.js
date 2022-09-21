@@ -13,7 +13,7 @@ export default function About() {
       </header>
       <main className='main'>
         <div className='container'>
-          About Us page
+          Add some content about your hosting business here...
         </div>
       </main>
     </>

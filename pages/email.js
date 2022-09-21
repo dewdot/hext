@@ -1,6 +1,6 @@
 import Head from 'next/head'
-import { FeaturesEmailData } from '../components/data/FeaturesEmailData'
 import FeaturesEmail from '../components/elements/features-email'
+import PricingEmail from '../components/elements/pricing-email'
 import Header from '../components/header/Header'
 import PageHeader from '../components/header/page-header'
 export default function Email() {
@@ -49,48 +49,7 @@ export default function Email() {
                 <p>Why pay a fixed amount every month. Just pay for what you use.</p>
               </div>
             </div>
-            <div className="price-cards">
-              <div className='price-card'>
-                <h4>Lite</h4>
-                <div className='plan-price'>$2 / month</div>
-                <ul className="plan-details">
-                  <li>15,000 mails /month</li>
-                  <li>5 GB</li>
-                  <li>10 Domains</li>
-                  <li>APIs, SMTP Relay</li>
-                  <li>Email routing</li>
-                  <li>IMAP / POP</li>
-                </ul>
-                <div><a className='button' href="#">Order Now</a></div>
-              </div>{/* price-card */}
-
-              <div className='price-card'>
-                <h4>Essential</h4>
-                <div className='plan-price'>$10 / month</div>
-                <ul className="plan-details">
-                  <li>50,000 mails /month</li>
-                  <li>50 GB</li>
-                  <li>100 Domains</li>
-                  <li>APIs, SMTP Relay</li>
-                  <li>Email routing</li>
-                  <li>IMAP / POP</li>
-                </ul>
-                <div><a className='button' href="#">Order Now</a></div>
-              </div>{/* price-card */}
-              <div className='price-card'>
-                <h4>Premier</h4>
-                <div className='plan-price'>$29 / month</div>
-                <ul className="plan-details">
-                  <li>100,000 mails /month</li>
-                  <li>200 GB</li>
-                  <li>Unlimited Domains</li>
-                  <li>APIs, SMTP Relay</li>
-                  <li>Email routing</li>
-                  <li>IMAP / POP</li>
-                </ul>
-                <div><a className='button' href="#">Order Now</a></div>
-              </div>{/* price-card */}
-            </div>{/* price-cards */}
+            <PricingEmail />
           </div>{/* section */}
           <div className="section">
             <h2 className='section-title'>Why choose us?</h2>

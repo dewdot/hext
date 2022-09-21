@@ -1,4 +1,4 @@
-const PricingHosting = () => {
+const PricingEmail = () => {
   return (
     <div className="price-cards">
       <div className='price-card'>
@@ -44,4 +44,4 @@ const PricingHosting = () => {
     </div>
   )
 }
-export default PricingHosting;
+export default PricingEmail;

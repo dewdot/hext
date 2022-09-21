@@ -14,8 +14,11 @@ export default function Error404() {
       </header>
       <main className='main'>
         <div className='container'>
-        <h1>Error 404 - Page Not Found</h1>
-        <p>This page does not exist <Link href="/"><a>Go back to home</a></Link>.</p>
+          <section className='section text-center'>
+            <h1 className='color-primary'>Error 404</h1>
+            <h4>Sorry Page Not Found</h4>
+            <p>This page does not exist <Link href="/"><a>Go back to home</a></Link>.</p>
+          </section>
         </div>
       </main>
     </>
