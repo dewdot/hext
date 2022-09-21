@@ -18,7 +18,7 @@ export default function Dedicated() {
           <div className='section'>
             <h3>Dual Core Servers</h3>
             <div className="bg-light-secondary box">
-              <div className='flex-container align-center'>
+              <div className='flex-container align-center server-plan'>
                 <div className="flex-20"><h4>Intel Atom D510</h4></div>
                 <div className="flex-20">
                   <ul>
@@ -31,7 +31,7 @@ export default function Dedicated() {
                 <div className="flex-10"><a className='button' href='#'>Order</a></div>
               </div>
               <div><hr /></div>
-              <div className='flex-container align-center'>
+              <div className='flex-container align-center server-plan'>
                 <div className="flex-20"><h4>Intel Atom D525</h4></div>
                 <div className="flex-20">
                   <ul>
@@ -49,7 +49,7 @@ export default function Dedicated() {
           <div className='section'>
             <h3>Multi Core Servers</h3>
             <div className="bg-light-secondary box">
-              <div className='flex-container align-center'>
+              <div className='flex-container align-center server-plan'>
                 <div className="flex-20"><h4>Intel Core i7</h4></div>
                 <div className="flex-20">
                   <ul>
@@ -62,7 +62,7 @@ export default function Dedicated() {
                 <div className="flex-10"><a className='button' href='#'>Order</a></div>
               </div>
               <div><hr /></div>
-              <div className='flex-container align-center'>
+              <div className='flex-container align-center server-plan'>
                 <div className="flex-20"><h4>Intel Xeon E3 1240</h4></div>
                 <div className="flex-20">
                   <ul>
@@ -75,7 +75,7 @@ export default function Dedicated() {
                 <div className="flex-10"><a className='button' href='#'>Order</a></div>
               </div>
               <div><hr /></div>
-              <div className='flex-container align-center'>
+              <div className='flex-container align-center server-plan'>
                 <div className="flex-20"><h4>AMD Ryzen 5800</h4></div>
                 <div className="flex-20">
                   <ul>
@@ -88,7 +88,7 @@ export default function Dedicated() {
                 <div className="flex-10"><a className='button' href='#'>Order</a></div>
               </div>
               <div><hr /></div>
-              <div className='flex-container align-center'>
+              <div className='flex-container align-center server-plan'>
                 <div className="flex-20"><h4>AMD Ryzen 3950X</h4></div>
                 <div className="flex-20">
                   <ul>

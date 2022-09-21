@@ -78,17 +78,11 @@
   padding: 1rem;
 }
 /* Content width */
-.width-50 {
-  width: 50%;
-}
-.width-60 {
-  width: 60%;
-}
-.width-70 {
-  width: 70%;
-}
+.width-50,
+.width-60,
+.width-70,
 .width-80 {
-  width: 80%;
+  width: 100%;
 }
 /* Responsive view */
 .view-mobile {

@@ -5,15 +5,95 @@
   /* Header */
   .main-nav {
     position: relative;
+    min-width: 100%;
+    max-width: 100%;
     transform: none;
     background-color: transparent;
     width: 100%;
+    padding: 0;
   }
   .main-menu {
     flex-direction: row;
+    gap: 2rem;
+  }
+  .main-menu > li::before {
+    width: 20px;
+  }
+  .main-menu > li:hover::before {
+    width: 100%;
+  }
+  .main-menu a {
+    padding: 0;
+  }
+  /* Sub-menu */
+  .sub-menu {
+    position: absolute;
+    display: none;
+    background-color: #ffffff;
+    padding: 0;
+    min-width: 160px;
+  }
+  .sub-menu a {
+    padding: 6px 0 6px 12px;
+  }
+  .has-children:hover .sub-menu {
+    display: flex;
+    animation: slideUP 0.5s linear forwards;
+  }
+  .sub-menu > li {
+    border-bottom: 1px solid var(--color-primary);
   }
   .page-header {
     padding: 3rem 0 4rem 0;
+  }
+  /* Frontpage hero */
+  .front-hero {
+    flex-direction: row;
+  }
+  .front-hero-section {
+    min-height: calc(100vh - 2rem);
+  }
+  .front-hero-text {
+    order: 1;
+  }
+  .front-hero-image {
+    order: 2;
+  }
+  /* Layout */
+  .flex-10 {
+    flex: 10%;
+  }
+  .flex-20 {
+    flex: 20%;
+  }
+  .flex-30 {
+    flex: 30%;
+  }
+  .flex-40 {
+    flex: 40%;
+  }
+  .flex-50 {
+    flex: 50%;
+  }
+  .flex-60 {
+    flex: 60%;
+  }
+  /* components */
+  .faq {
+    flex: 40%;
+  }
+  /* Shortcodes -> Content width */
+  .width-50 {
+    width: 50%;
+  }
+  .width-60 {
+    width: 60%;
+  }
+  .width-70 {
+    width: 70%;
+  }
+  .width-80 {
+    width: 80%;
   }
   /* Responsive view */
   .view-mobile {

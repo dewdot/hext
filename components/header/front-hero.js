@@ -1,3 +1,4 @@
+import Link from 'next/link'
 const FrontHero = () => {
   return (
     <section className="section-front-hero">
@@ -7,8 +8,8 @@ const FrontHero = () => {
             <h1>Fast, Powerful, Secure and Reliable VPS Hosting</h1>
             <p>High performance Windows VPS and Linux VPS backed by enterprise hardware, 10G network and excellent 24/7 customer care.</p>
             <div className="flex-container">
-              <a className="button button-primary" href="#">KVM VPS</a>
-              <a className="button button-secondary" href="#">Dedicated Server</a>         
+              <Link href="/vps/kvm-vps"><a className="button button-primary">KVM VPS</a></Link>
+              <Link href="/vps/kvm-vps"><a className="button button-secondary">Dedicated Server</a></Link>
             </div>
           </div>{/* front-hero-text */}
           <div className="front-hero-section front-hero-image">

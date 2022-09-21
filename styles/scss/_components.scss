@@ -87,10 +87,15 @@
 .plan-details li:last-child {
   border-bottom: 0;
 }
-
+/* Dedicated server plans */
+.server-plan ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 /* Faq */
 .faq {
-  flex: 40%;
+  flex: 100%;
 }
 .faq-title,
 .faq-ans {

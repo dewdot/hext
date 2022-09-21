@@ -18,7 +18,7 @@ export default function KvmVps() {
         <div className='container'>
           <section className='section'>
             <div className='section-title'>
-              <h2>Affordable KVM Storage VPS</h2>
+              <h2>High Performing KVM VPS</h2>
               <p>KVM Virtualization, Raid 10, Root Access, Full Control</p>
             </div>
             <PricingKvm />
