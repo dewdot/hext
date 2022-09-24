@@ -112,3 +112,28 @@
 .faq-ans {
   background-color: var(--color-light-secondary);
 }
+
+/* social icons */
+.social-icons {
+  display: flex;
+  gap: 1rem;
+}
+.social-icons li {
+  padding: 0;
+  border: none;
+}
+.social-icons a {
+  background-color: var(--color-light-secondary);
+  color: var(--color-primary);
+  display: grid;
+  place-content: center;
+  width: 44px;
+  height: 44px;
+  border: 1px solid var(--color-primary);
+  border-radius: 4px;
+  transition: all 0.3s linear;
+}
+.social-icons a:hover {
+  color: var(--color-secondary);
+  border: 1px solid var(--color-secondary);
+}

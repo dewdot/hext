@@ -15,6 +15,11 @@
   flex: 1 0 250px;
 }
 .footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
   padding-top: 1rem;
 }
 .footer a {

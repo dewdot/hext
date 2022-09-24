@@ -9,7 +9,7 @@ const FrontHero = () => {
             <p>High performance Windows VPS and Linux VPS backed by enterprise hardware, 10G network and excellent 24/7 customer care.</p>
             <div className="flex-container">
               <Link href="/vps/kvm-vps"><a className="button button-primary">KVM VPS</a></Link>
-              <Link href="/vps/kvm-vps"><a className="button button-secondary">Dedicated Server</a></Link>
+              <Link href="/dedicated"><a className="button button-secondary">Dedicated Server</a></Link>
             </div>
           </div>{/* front-hero-text */}
           <div className="front-hero-section front-hero-image">

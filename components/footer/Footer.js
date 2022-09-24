@@ -2,7 +2,7 @@ import FooterBlock1 from "./Footer-block-1";
 import FooterBlock2 from "./Footer-block-2";
 import FooterBlock3 from "./Footer-block-3";
 import FooterBlock4 from "./Footer-block-4";
-const yr = new Date().getFullYear();
+import FooterBottom from "./Footer-bottom";
 const Footer = () => {
   return (
     <>
@@ -15,7 +15,7 @@ const Footer = () => {
             <FooterBlock4 />
           </div>
           <div className="footer-bottom">
-            Copyright © { yr } | Hext
+            <FooterBottom />
           </div>
         </div>
       </footer>
