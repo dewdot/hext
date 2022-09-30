@@ -11,7 +11,9 @@ export default function Home() {
       <Head>
         <title>Hext | Free Web Hosting Template</title>
       </Head>
-      <Header />
+			<header className="header header-front">
+				<Header />
+			</header>
       <FrontHero />
       <main className='main'>
         <div className='container'>
@@ -20,7 +22,6 @@ export default function Home() {
           <Features />
         </div>
       </main>
-
     </>
   )
 }
