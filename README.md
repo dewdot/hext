@@ -9,7 +9,7 @@ https://hext.vercel.app/
 
 
 ### Theme page
-https://dewcodes.com/node/69/
+https://dev5.dev/node/61/
 
 
 ## Features
@@ -56,6 +56,6 @@ I can integrate WHMCS and create a similar WHMCS theme for US$ 250
 
 
 # Contact Developer
-https://dewcodes.com/contact
+https://dev5.dev/contact
 
 You can also mail me at: ravi9793@gmail.com
