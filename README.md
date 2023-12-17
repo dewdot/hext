@@ -9,7 +9,7 @@ https://hext.vercel.app/
 
 
 ### Theme page
-https://dev5.dev/node/61/
+https://dev5.dev/theme/nextjs/hext
 
 
 ## Features
@@ -44,7 +44,8 @@ Please contact me to discuss further.
 
 
 ## WHMCS integration
-I can integrate WHMCS and create a similar WHMCS theme for US$ 250
+You can purchase WHMCS version of Hext for $39 only.
+https://dev5.dev/theme/whmcs/hext-whmcs
 
 
 # Sources and Credits:
