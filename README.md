@@ -9,7 +9,7 @@ https://hext.vercel.app/
 
 
 ### Theme page
-https://dev5.dev/theme/nextjs/hext
+https://dev5.dev/theme/hext
 
 
 ## Features
@@ -34,8 +34,8 @@ Please contact me to discuss further.
 
 
 ## HTML Version
-If you want me to convert this template into HTML version, I can do this for US$ 120
-Please contact me to discuss further.
+You can purchase HTML version of Hext for $39 only.
+https://dev5.dev/theme/hext-html
 
 
 ## WordPress Version
